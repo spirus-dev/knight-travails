@@ -37,7 +37,6 @@ function knightMoves(start,end){
     let visited=new Set();
     let queue=[];
     queue.push([start,[start]]);
-    let count = 2;
     while(queue.length!=0){
         let item=queue.shift();
         let current=item[0];
